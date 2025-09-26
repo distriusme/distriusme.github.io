@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosotros - Distriusme</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style3.css">
+<style>
+    /* Estilos solo para la galería de productos */
+    .productos {
+      display: flex;
+      width: 600px;
+      height: 430px;
+      margin: 40px auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .productos img {
+      width: 0px;
+      flex-grow: 1;
+      object-fit: cover;
+      opacity: .8;
+      transition: .5s ease;
+    }
+
+    .productos img:hover {
+      cursor: crosshair;
+      width: 300px;
+      opacity: 100;
+      filter: contrast(120%);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="../img/logo.png" width="80" alt="Logo Distriusme">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="nosotros.html" class="activo">Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Sección principal -->
+    <section id="quienes-somos" class="seccion-destacada">
+    
+        <div class="texto">
+          <h2>¿Quiénes somos?</h2>
+          <p>Distriusme  es una empresa ubicada en la localidad de Usme, Bogotá, 
+            dedicada a la distribución de productos lácteos como yogures, quesos, c
+            uajada y bebidas fermentadas. Nació en 2010 como un emprendimiento familiar, 
+            con el objetivo de aprovechar la producción lechera local y ofrecer productos 
+            frescos a la comunidad.
+            Inició con procesos artesanales y ventas en tiendas de barrio, pero con el tiempo 
+            fue creciendo gracias a la calidad de sus productos y la cercanía con los clientes. 
+            La empresa logró establecer una pequeña planta de procesamiento y una red de distribución
+            refrigerada adaptada a las condiciones de la zona.
+            A lo largo de los años, Distriusme ha diversificado su portafolio y mejorado sus procesos para cumplir 
+            con estándares de higiene y calidad. Actualmente, se proyecta como una empresa sólida en el sur de Bogotá, 
+            comprometida con el desarrollo local y la producción sostenible.
+          </p>
+
+    <section class="productos">
+      <img src="../img/leche.png" alt="logo 1">
+      <img src="../img/yogurt.png" alt="logo 2">
+      <img src="../img/queso.jpeg" alt="logo 3">
+    </section>
+  </main>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Sección de valores -->
+    <section id="valores">
+      <h2>Nuestros Valores</h2>
+      <div class="contenedor-servicios">
+        <div class="card-servicio">
+          <img src="https://ideogram.ai/assets/image/lossless/response/oWr261xkQOqrTLzHtNSosg" class="icono" alt="calidad">
+          <h3>Calidad</h3>
+          <p>siempre pensamos primero en la calidad del producto y en la satisfaccion del cliente.</p>
+        </div>
+        <div class="card-servicio">
+          <img src="https://ideogram.ai/assets/progressive-image/balanced/response/goVj1cJZRf-WfOp5x_szgw" class="icono" alt="distribucion">
+          <h3>Distribucion</h3>
+          <p>nos aseguramos de que todos y cada uno de los productos llegue a su destino en un buen estado.</p>
+        </div>
+        <div class="card-servicio">
+          <img src="https://cdn-icons-png.flaticon.com/512/1946/1946412.png" class="icono" alt="Compromiso">
+          <h3>Compromiso</h3>
+          <p>Trabajamos día a día para producir los alimentos de la mejor calidad posible.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Distriusme - Todos los derechos reservados</p>
+    <p>Contacto: <a href="mailto:distriusme693@gmail.com">distriusme693</a></p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
